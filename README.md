@@ -18,6 +18,8 @@ To get a quick help at the command line for the *monetize-files* CLI tool, you c
 
 It will show you a list of options that you can pass as arguments to the CLI tool
 
+![help image](https://drive.google.com/uc?id=1osote_iQPcbnVvu6agwI9JB53ox24rjq)
+
 #### Quickstart
 
 Once you are inside the folder where you want to web-monetize your desired files, you execute:
@@ -30,6 +32,8 @@ This will simply add the *meta monetization tag* with the provided wallet addres
 If you work with **other filetypes** such as *haml*, *pug*, *ejs* or any other filetype, you can monetize those types of files only by executing:
 `monetize-files -w 'your wallet address' -f 'pug'`
 monetize files will now search only for those files ending with *.pug* and add the *meta monetization tag* to those files only.
+
+![working](https://drive.google.com/uc?id=1ivTPD8FUKRrRZjVfOleTIUht8_-_jtxb)
 
 If you want to **exclude any folders** from being web-monetized, you can execute:
 `monetize-files -w 'you wallet address' -e 'assets, ../scripts, ./stylesheets/css'`
@@ -56,3 +60,4 @@ Now you can just execute:
 ```
 
 If the file already contains a *meta monetization tag*, it does not add the same to it again.
+

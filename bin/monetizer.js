@@ -11,7 +11,7 @@ if (!input) {
 	process.exit(0);
 }
 
-console.log('=====================\nMonetizing files now\n=====================\n\n');
+console.log('=====================\nMonetizing files now\n=====================\n');
 
 let mfiles;
 if ('exclude' in input)

@@ -1,6 +1,6 @@
 {
   "name": "monetize-files",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "CLI tool to web-monetize files",
   "main": "monetizer.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "bin": {
     "monetize-files": "./bin/monetizer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uinstinct/monetize-files"
   },
   "keywords": [
     "monetize",
