@@ -5,7 +5,7 @@ function addTag(files, wallet){
 		return;
 
 	for(let file of files){
-		console.log(`\n\nReading file : ${file}`);
+		console.log(`\n\nWriting in file : ${file}`);
 
 		const stream = fs.readFileSync(file, { encoding: 'utf-8'});
 
