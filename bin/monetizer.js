@@ -15,8 +15,8 @@ console.log('=====================\nMonetizing files now\n=====================\
 
 let mfiles;
 if ('exclude' in input)
-	mfiles = scanDirs(input.exclude.split(','));
+	mfiles = scanDirs(input.filetype, input.exclude.split(','));
 else
-	mfiles = scanDirs();
+	mfiles = scanDirs(input.filetype);
 
 addTag(mfiles, input.wallet);

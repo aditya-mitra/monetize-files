@@ -1,6 +1,6 @@
 {
   "name": "monetize-files",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "CLI tool to web-monetize files",
   "main": "monetizer.js",
   "scripts": {
@@ -9,7 +9,10 @@
   "bin": {
     "monetize-files": "./bin/monetizer.js"
   },
-  "keywords": ["monetize","web-monetization"],
+  "keywords": [
+    "monetize",
+    "web-monetization"
+  ],
   "author": "uinstinct",
   "license": "MIT",
   "dependencies": {
